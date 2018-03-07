@@ -1,5 +1,5 @@
 import React from 'react';
-import Textboxinno from '../components/Textboxinno';
+import Dropdowninno from '../components/Dropdowninno';
 
 
 
@@ -11,7 +11,7 @@ class ShoppingList extends React.Component {
         <div> <label className={this.props.labelName}>{this.props.Name}</label>
 
 
-        <Textboxinno
+        <Dropdowninno
           name={this.props.name}
           defaultValue
           // readOnly={this.props.editable}
